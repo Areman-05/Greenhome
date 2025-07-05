@@ -33,3 +33,32 @@ header {
   background-color: var(--verde-oscuro);
   color: var(--blanco);
 }
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.logo {
+  width: 150px;
+}
+
+nav ul.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+nav ul.nav-list li a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+}
+
+nav ul.nav-list li a.active,
+nav ul.nav-list li a:hover {
+  border-bottom: 2px solid var(--verde-claro);
+}
