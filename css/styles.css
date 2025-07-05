@@ -115,3 +115,23 @@ nav ul.nav-list li a:hover {
 .btn-primary:hover {
   background-color: #4c9673;
 }
+
+/* Footer */
+footer {
+  background-color: var(--verde-oscuro);
+  color: var(--blanco);
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
