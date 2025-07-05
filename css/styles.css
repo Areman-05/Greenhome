@@ -62,3 +62,56 @@ nav ul.nav-list li a.active,
 nav ul.nav-list li a:hover {
   border-bottom: 2px solid var(--verde-claro);
 }
+/* Hero section */
+.hero {
+  background: url('../img/hero.jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  color: var(--blanco);
+  text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(47, 133, 90, 0.7);
+}
+
+.hero-content {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--verde-claro);
+  color: var(--verde-oscuro);
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4c9673;
+}
