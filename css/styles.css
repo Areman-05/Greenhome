@@ -1,0 +1,16 @@
+/* Variables de color */
+:root {
+  --verde-oscuro: #2f855a;
+  --verde-claro: #68d391;
+  --gris-claro: #f7fafc;
+  --gris-oscuro: #2d3748;
+  --blanco: #fff;
+  --fuente-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Reset y base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
